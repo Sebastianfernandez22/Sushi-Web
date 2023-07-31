@@ -1,0 +1,78 @@
+/* En styles.css */
+.navbar {
+    background-color: #FFA500 !important; /* Naranja */
+    /* Agrega cualquier otra propiedad de estilo que desees */
+}
+
+  .navbar-brand {
+    font: oblique bold 120% cursive;
+    
+}
+.nav-link {
+    font: oblique bold 120% cursive;
+    border-radius: 2%;
+
+}
+/* Estilo personalizado para los enlaces del navbar */
+.navbar #navbarNav .nav-link-custom {
+    font-size: 18px; /* Ajusta el tamaño del texto según tus preferencias */
+    border-radius: 5px; /* Ajusta el valor para obtener el redondeado deseado */
+    border: 2px solid black; /* Agrega el borde de color negro */
+    padding: 8px 20px; /* Ajusta el espaciado interno (padding) según tus preferencias */
+    transition: background-color 0.3s; /* Agrega una transición de color al pasar el mouse */
+    margin-right: 10px; /* Ajusta el margen derecho para separar los enlaces */
+}
+
+/* Estilo para cambiar el color de fondo al pasar el mouse */
+.navbar #navbarNav .nav-link-custom:hover {
+    background-color: #000000; /* Ajusta el color de fondo al pasar el mouse */
+    color: #fff; /* Ajusta el color del texto al pasar el mouse */
+    text-decoration: none; /* Elimina la subrayado al pasar el mouse */
+}
+.navbar-logo {
+    opacity: 0.7; /* Ajusta este valor según la transparencia que deseas, por ejemplo: 0.7 */
+  }
+
+.navbar-nav{
+    font-size: 20px;
+
+}
+
+.font-size-bonito {
+    font-family: 'Pacifico', cursive;
+    font-size: 100px !important; /* Ajusta el tamaño de fuente según tu preferencia */
+}
+
+.custom-section {
+    margin-top: 10px; /* Ajusta el margen superior según desees */
+    margin-bottom: 0px; /* Ajusta el margen inferior según desees */
+}
+.imagen-carrusel{
+    height: 700px !important;
+    object-fit: cover !important;
+    object-position: 0% 43% !important;
+
+}
+
+.card-border-color{
+    border-color: solid 2px #000000 !important;
+    border: 2px solid #131313!important;
+}
+
+
+.card-img-top{
+    height: 260px;
+    object-fit: cover;
+}
+.font-size{
+    font-family: 'Noto Serif Vithkuqi', serif;
+
+}
+.footer {
+    background-color: rgba(0, 0, 0, 0.7)!important;
+    backdrop-filter: blur(5px)!important;
+}
+
+.footer span.text-muted {
+    color: white!important;
+}
