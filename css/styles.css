@@ -5,11 +5,11 @@
 }
 
   .navbar-brand {
-    font: oblique bold 120% cursive;
+    font-family: 'Noto Serif Vithkuqi', serif;
     
 }
 .nav-link {
-    font: oblique bold 120% cursive;
+    font-family: 'Noto Serif Vithkuqi', serif;
     border-radius: 2%;
 
 }

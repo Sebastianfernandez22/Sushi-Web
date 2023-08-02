@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="./css/styles.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
-        
+
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -16,7 +16,12 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+Vithkuqi&family=Pacifico&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+Vithkuqi&family=Pacifico&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <!-- Fonts de nav -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+Vithkuqi&display=swap" rel="stylesheet">
 
 </head>
 
@@ -48,35 +53,36 @@
         </div>
     </nav>
     <!-- Modal de Contacto /es lo que esta adentro cuando uno apreta el boton de "contacto"-->
-<div class="modal fade" id="contactModal" tabindex="-1" aria-labelledby="contactModalLabel" aria-hidden="true">
-    <div class="modal-dialog">
-        <div class="modal-content">
-            <div class="modal-header">
-                <h5 class="modal-title" id="contactModalLabel">Contacto</h5>
-                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Cerrar"></button>
-            </div>
-            <div class="modal-body">
-                <!-- Contenido del modal de Contacto -->
-                <div class="mb-3">
-                    <label for="Nombre" class="form-label">Nombre:</label>
-                    <input type="text" class="form-control" id="Nombre">
+    <div class="modal fade" id="contactModal" tabindex="-1" aria-labelledby="contactModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="contactModalLabel">Contacto</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Cerrar"></button>
                 </div>
-                <div class="mb-3">
-                    <label for="Correo" class="form-label"  placeholder="Escriba aquí su consulta">Correo:</label>
-                    <input type="email" class="form-control" id="Correo" placeholder="ejemplo@gmail.com">
+                <div class="modal-body">
+                    <!-- Contenido del modal de Contacto -->
+                    <div class="mb-3">
+                        <label for="Nombre" class="form-label">Nombre:</label>
+                        <input type="text" class="form-control" id="Nombre">
+                    </div>
+                    <div class="mb-3">
+                        <label for="Correo" class="form-label" placeholder="Escriba aquí su consulta">Correo:</label>
+                        <input type="email" class="form-control" id="Correo" placeholder="ejemplo@gmail.com">
+                    </div>
+                    <div class="mb-3">
+                        <label for="Consulta" class="form-label">Consulta:</label>
+                        <textarea class="form-control" id="mensaje" name="mensaje" rows="4" cols="50"
+                            placeholder="¿Necesita más información? Háganos saber..."></textarea>
+                    </div>
                 </div>
-                <div class="mb-3">
-                    <label for="Consulta" class="form-label">Consulta:</label>
-                    <textarea class="form-control" id="mensaje" name="mensaje" rows="4" cols="50" placeholder="¿Necesita más información? Háganos saber..."></textarea>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Enviar</button>
                 </div>
-            </div>
-            <div class="modal-footer">
-                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
-                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Enviar</button>
             </div>
         </div>
     </div>
-</div>
 
 
     <!-- Modal de Quienes somos /es lo que esta adentro cuando uno apreta el boton de "Quienes somos"-->
@@ -89,7 +95,11 @@
                 </div>
                 <div class="modal-body">
                     <!-- Contenido del modal "Quienes Somos" -->
-                    <p class="font-size">"Somos Sushi Flex, una empresa especializada en la venta de deliciosos gohan, una exquisita combinación de arroz, palta y sésamo, que deleita a nuestros clientes con sus diversas opciones de proteínas y sabrosos ingredientes adicionales. Nuestra pasión por la gastronomía japonesa nos impulsa a ofrecer una experiencia única de sabores y sensaciones culinarias."</p>
+                    <p class="font-size">"Somos Sushi Flex, una empresa especializada en la venta de deliciosos gohan,
+                        una exquisita combinación de arroz, palta y sésamo, que deleita a nuestros clientes con sus
+                        diversas opciones de proteínas y sabrosos ingredientes adicionales. Nuestra pasión por la
+                        gastronomía japonesa nos impulsa a ofrecer una experiencia única de sabores y sensaciones
+                        culinarias."</p>
                 </div>
                 <div class="modal-footer">
                     <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
@@ -139,11 +149,11 @@
         </div>
     </main>
     <!-- Nueva sección para el eslogan -->
-<section class="eslogan">
-    <div class="container text-center">
-        <h2 class="font-size-bonito">¡Sensaciones De Sabor!</h2>
-    </div>
-</section>
+    <section class="eslogan">
+        <div class="container text-center">
+            <h2 class="font-size-bonito fs-10">¡Sensaciones De Sabor!</h2>
+        </div>
+    </section>
     <section class="custom-section">
         <div class="container mt-4 ">
             <div class="row">
@@ -160,22 +170,23 @@
                 </div>
                 <div class="col-md-4 ">
                     <div class="card mb-3 card-border-color">
-                        <img src="./imagen/gohanebifurai.webp" class="card-img-top" alt="Imagen 2"  >
+                        <img src="./imagen/gohanebifurai.webp" class="card-img-top" alt="Imagen 2">
                         <div class="card-body">
                             <h5 class="card-title" style="font-size: 18px;">Gohan Ebi Furai</h5>
                             <p class="card-text" style="font-size: 14px;">Base de arroz, palta y sésamo. Incluye
                                 camarón.</p>
-                                <a href="#" class="btn btn-primary btn-color-especial">Ir a la receta</a>
+                            <a href="#" class="btn btn-primary btn-color-especial">Ir a la receta</a>
                         </div>
                     </div>
                 </div>
                 <div class="col-md-4 ">
                     <div class="card mb-3 card-border-color">
-                        <img src="./imagen/gohanchampiñon.webp" class="card-img-top" alt="Imagen 2"  >
+                        <img src="./imagen/gohanchampiñon.webp" class="card-img-top" alt="Imagen 2">
                         <div class="card-body">
                             <h5 class="card-title" style="font-size: 18px;">Gohan Champiñon Furai</h5>
-                            <p class="card-text" style="font-size: 14px;">Base de arroz, incluye champiñón apanado en panko.</p>
-                                <a href="#" class="btn btn-primary btn-color-especial">Ir a la receta</a>
+                            <p class="card-text" style="font-size: 14px;">Base de arroz, incluye champiñón apanado en
+                                panko.</p>
+                            <a href="#" class="btn btn-primary btn-color-especial">Ir a la receta</a>
                         </div>
                     </div>
                 </div>
@@ -187,7 +198,7 @@
                             <h5 class="card-title" style="font-size: 18px;">Gohan Sake</h5>
                             <p class="card-text" style="font-size: 14px;">Base de arroz, palta y sésamo. Incluye salmón,
                                 queso crema y cebollin. </p>
-                                <a href="#" class="btn btn-primary btn-color-especial">Ir a la receta</a>
+                            <a href="#" class="btn btn-primary btn-color-especial">Ir a la receta</a>
                         </div>
                     </div>
                 </div>
@@ -198,7 +209,7 @@
                             <h5 class="card-title" style="font-size: 18px;">Gohan Tori</h5>
                             <p class="card-text" style="font-size: 14px;">Base de arroz, palta y sésamo. Incluye pollo,
                                 queso crema y cebollín.</p>
-                                <a href="#" class="btn btn-primary btn-color-especial">Ir a la receta</a>
+                            <a href="#" class="btn btn-primary btn-color-especial">Ir a la receta</a>
                         </div>
                     </div>
                 </div>
@@ -209,21 +220,22 @@
                             <h5 class="card-title" style="font-size: 18px;">Gohan Veggie</h5>
                             <p class="card-text" style="font-size: 14px;">Base de arroz, palta y sésamo. Incluye
                                 champiñón natural apanado en panko, queso crema y cebollín.</p>
-                                <a href="#" class="btn btn-primary btn-color-especial">Ir a la receta</a>
+                            <a href="#" class="btn btn-primary btn-color-especial">Ir a la receta</a>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </section>
-        <!-- Footer -->
-        <footer class="footer py-3" style="background-color: rgba(0, 0, 0, 0.5);">
-            <div class="container text-center">
-                <span class="text-muted text-white d-md-flex justify-content-center">&copy; 2023 Sushi Flex. Todos los derechos reservados.</span>
-            </div>
-        </footer>
-        
-        
+    <!-- Footer -->
+    <footer class="footer py-3" style="background-color: rgba(0, 0, 0, 0.5);">
+        <div class="container text-center">
+            <span class="text-muted text-white d-md-flex justify-content-center">&copy; 2023 Sushi Flex. Todos los
+                derechos reservados.</span>
+        </div>
+    </footer>
+
+
     <!-- Scripts -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
